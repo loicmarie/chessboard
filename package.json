@@ -1,0 +1,22 @@
+{
+  "name": "chessboard",
+  "version": "1.0.0",
+  "description": "Chessboard is an internal board representation to maintain chess positions for search, evaluation and game-play. It's a NodeJS module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loicmarie/chessboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loicmarie/chessboard/issues"
+  },
+  "homepage": "https://github.com/loicmarie/chessboard#readme",
+  "devDependencies": {
+    "cucumber": "^0.5.2"
+  }
+}
