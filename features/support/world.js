@@ -1,6 +1,3 @@
-var request = require('request-promise');
-require('es6-promise').polyfill();
-
 var WorldConstructor = function WorldConstructor(callback) {
 
     var world = {

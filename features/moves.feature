@@ -1,12 +1,14 @@
-Feature: Init chessboard
-	As a user 
-	I want to init chessboard
-	So that I can use it
+Feature: Moving a piece
+	As a player
+	I want to move a piece
+	So that I can play a game
 
-	Scenario: Init chessboard without position
-		Given I want to init without position
-		When I init chessboard
-		Then I should have a valid JSON position
+	Background:
+		Given I init the chessboard with the "start" position
+
+	Scenario: Move a pawn along one square
+		When "whites" play "e3"
+		Then I should have a valid position
 
 	Scenario: Init chessboard with a JSON position
 		Given I want to init with a "JSON" position
